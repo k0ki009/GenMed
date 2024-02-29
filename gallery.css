@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+.text {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.heart {
+    background-image: url('gallery-1.jpg');
+}
+
+.running {
+    background-image: url('running.jpg');
+}
+
+.hospital-heart {
+    background-image: url('hospital-heart.jpg');
+}
+
+.ambulance {
+    background-image: url('ambulance.jpg');
+}
+
+.user-md {
+    background-image: url('user-md.jpg');
+}
+
+.flask {
+    background-image: url('flask.jpg');
+}
+
+.wheelchair {
+    background-image: url('wheelchair.jpg');
+}
+
+.prescription {
+    background-image: url('prescription.jpg');
+}
