@@ -30,7 +30,14 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/css/doctors.css" rel="stylesheet">
-
+    
+    <style>
+        /* CSS to adjust image alignment */
+        .news-card .card-img {
+            width: 100%; 
+            height: auto; 
+        }
+    </style>
 </head>
 
 <body>
@@ -57,7 +64,7 @@
                     while ($row = mysqli_fetch_assoc($result)) {
                 ?>
                         <div class="col-lg-6" data-aos="fade-up">
-                            <div class="card mb-4">
+                            <div class="card mb-4 news-card">
                                 <div class="row no-gutters">
                                     <div class="col-md-4">
                                         <img src="admin/dist/news/<?php echo $row['image']; ?>" class="card-img" alt="News Image">
