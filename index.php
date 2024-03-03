@@ -217,8 +217,8 @@
       </div>
     </section><!-- End Counts Section -->
 
-    <!-- ======= News Section ======= -->
-<section id="departments" class="departments">
+     <!-- ======= News Section ======= -->
+     <section id="departments" class="departments">
     <div class="container" data-aos="fade-up">
         <div class="section-title">
             <h2>LATEST NEWS</h2>
@@ -267,7 +267,7 @@
                             <div class="tab-pane <?php echo ($row['id'] == 1) ? 'active show' : ''; ?>" id="tab-<?php echo $row['id']; ?>">
                                 <h3><?php echo $row['title']; ?></h3>
                                 <img src="admin/dist/news/<?php echo $row['image']; ?>" alt="" class="img-fluid">
-                                <p><?php echo $row['content']; ?></p>
+                                <p><?php echo $row['summary']; ?></p>
                                 <!-- Date added -->
                                 <a href="news_read.php?id=<?php echo $row['id']; ?>">Read more &raquo;</a>
                             </div>
@@ -281,8 +281,6 @@
         </div>
     </div>
 </section>
-
-
 
     <!-- ======= Gallery Section ======= -->
     <section id="gallery" class="gallery">

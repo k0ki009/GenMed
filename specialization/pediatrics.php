@@ -66,7 +66,7 @@
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right">
           <!-- <h5></h5> -->
-            <img src="assets/img/64slice.png" class="img-fluid" alt="">
+            <img src="assets/img/pedia.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
           <p class="about" style="text-align: justify;">Welcome to a world of compassionate care and expert support for your little ones at Gensan Medical Center's specialized Pediatric department. Our team of dedicated pediatricians and healthcare professionals is committed to providing comprehensive and personalized medical care for children of all ages, from infancy through adolescence. From well-child check-ups and immunizations to the diagnosis and treatment of childhood illnesses and developmental concerns, we offer a wide range of services to meet the unique needs of every child. With a child-friendly environment and a focus on family-centered care, we strive to create a nurturing and supportive atmosphere where children can thrive. At Gensan Medical Center, we understand the importance of keeping your child healthy and happy, and we're here to support you every step of the way. Trust in our specialized Pediatric department for expert care that puts your child's well-being first. Schedule your appointment today and experience the difference compassionate pediatric care can make in your child's life.

@@ -66,7 +66,7 @@
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right">
           <!-- <h5></h5> -->
-            <img src="assets/img/64slice.png" class="img-fluid" alt="">
+            <img src="assets/img/nopic.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
           <p class="about" style="text-align: justify;">Experience unparalleled kidney care with Gensan Medical Center's specialized Nephrology department. Our team of dedicated nephrologists is committed to providing comprehensive and compassionate care for patients with kidney-related conditions. From managing chronic kidney disease to treating complex renal disorders, we offer expertise in diagnosing, treating, and preventing a wide range of kidney issues. With state-of-the-art facilities and advanced treatment options, we ensure personalized care tailored to each patient's unique needs and goals. At Gensan Medical Center, we understand the impact kidney health has on overall well-being, and we prioritize your comfort, safety, and long-term health outcomes. Trust in our specialized Nephrology department for expert medical care that exceeds expectations. Schedule your consultation today and take the first step towards better kidney health with Gensan Medical Center.

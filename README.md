@@ -1,1 +1,1 @@
-# GenMed
+# GMC

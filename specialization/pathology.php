@@ -66,7 +66,7 @@
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right">
           <!-- <h5></h5> -->
-            <img src="assets/img/64slice.png" class="img-fluid" alt="">
+            <img src="assets/img/nopic.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
           <p class="about" style="text-align: justify;">Unlock the secrets to your health with Gensan Medical Center's specialized Pathology & Laboratory Medicine department. Our team of expert pathologists and laboratory professionals is dedicated to providing accurate and timely diagnostic testing services to support your healthcare needs. From routine blood tests and screenings to specialized molecular diagnostics, we offer a comprehensive range of laboratory services to help identify and manage a wide range of medical conditions. With state-of-the-art technology and stringent quality control measures, we ensure reliable results and personalized treatment recommendations. At Gensan Medical Center, we understand the importance of precise diagnostics in guiding medical decisions and improving patient outcomes. Trust in our specialized Pathology & Laboratory Medicine department for expert testing and analysis that prioritizes your health and well-being. Schedule your appointment today and experience the difference advanced laboratory services can make in your healthcare journey.

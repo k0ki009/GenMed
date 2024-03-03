@@ -66,7 +66,7 @@
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right">
           <!-- <h5></h5> -->
-            <img src="assets/img/64slice.png" class="img-fluid" alt="">
+            <img src="assets/img/nopic.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
           <p class="about" style="text-align: justify;">Step into a life of mobility and vitality with Gensan Medical Center's specialized Orthopedic department. Our team of experienced orthopedic surgeons and specialists is dedicated to providing comprehensive care for bone, joint, and muscle conditions. From sports injuries and fractures to arthritis and joint replacement surgeries, we offer personalized treatment plans tailored to your specific needs and goals. With state-of-the-art facilities and advanced surgical techniques, we ensure precise diagnosis and effective treatment options for a wide range of orthopedic issues. At Gensan Medical Center, we understand the importance of restoring function and relieving pain, so you can get back to doing what you love. Trust in our specialized Orthopedic department for expert care and support that puts your well-being first. Schedule your appointment today and take the first step towards a life of mobility and independence with Gensan Medical Center.

@@ -4,6 +4,21 @@ include 'conn.php';
 // Check if there's a message in the URL parameters
 $message = isset($_GET['msg']) ? $_GET['msg'] : '';
 
+// Pagination configuration
+$records_per_page = 2; // Change this value to adjust the number of records per page
+$page = isset($_GET['page']) && is_numeric($_GET['page']) ? $_GET['page'] : 1;
+$start_from = ($page - 1) * $records_per_page;
+
+// Query to count total number of news
+$total_records_sql = "SELECT COUNT(*) AS total FROM news";
+$total_records_result = mysqli_query($conn, $total_records_sql);
+$total_records = mysqli_fetch_assoc($total_records_result)['total'];
+$total_pages = ceil($total_records / $records_per_page);
+
+// Query for retrieving news with pagination
+$sql = "SELECT news.id, news.title, news.summary, news.content, news.author, news.image FROM news LIMIT $start_from, $records_per_page";
+$result = mysqli_query($conn, $sql);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -85,7 +100,7 @@ $message = isset($_GET['msg']) ? $_GET['msg'] : '';
           <div class="col-lg-12">
             <div class="card">
               <div class="card-header">
-                <h3 class="card-title">News List</h3>
+                <h3 class="card-title">Doctor List</h3>
               </div>
               <!-- /.card-header -->
               <div class="card-body">
@@ -102,17 +117,14 @@ $message = isset($_GET['msg']) ? $_GET['msg'] : '';
                     <tr>
                       <th>ID</th>
                       <th>Title</th>
+                      <th>Summary</th>
                       <th>Content</th>
                       <th>Image</th>
-                      <th>Date</th>
                       <th>Action</th>
                     </tr>
                   </thead>
                   <tbody>
                     <?php
-                    $sql = "SELECT news.id, news.title, news.content, news.author, news.image ,news.date FROM news";
-                    $result = mysqli_query($conn, $sql);
-
                     if ($result && mysqli_num_rows($result) > 0) {
                       while ($row = mysqli_fetch_assoc($result)) {
                         $id = $row['id'];
@@ -123,23 +135,23 @@ $message = isset($_GET['msg']) ? $_GET['msg'] : '';
                                 <?php echo $row['id']; ?>
                               </span>
                             </td>
-                            <td style="width: 300px;">
+                            <td style="width: 150px;">
                               <span class="fw-semibold">
                                 <?php echo $row['title']; ?>
                               </span>
                             </td>
-                            <td style="width: 300px;">
+                            <td style="width: 230px;">
+                              <span class="fw-semibold">
+                                <?php echo $row['summary']; ?>
+                              </span>
+                            </td>
+                            <td style="width: 600px;">
                               <span class="fw-semibold">
                                 <?php echo $row['content']; ?>
                               </span>
                             </td>
                             <td>
-                              <img src="dist/news/<?php echo $row['image']; ?>" alt="News Image" style="max-width: 100px;">
-                            </td>
-                            <td>
-                            <span class="fw-semibold">
-                                <?php echo $row['date']; ?>
-                              </span>
+                              <img src="dist/news/<?php echo $row['image']; ?>" alt="News Image" style="max-width: 150px;">
                             </td>
                             <td>
                               <a href="#" class="btn btn-primary btn-sm edit-button" data-toggle="modal" data-target="#editModal" data-doctor-id="<?php echo $id; ?>" data-doctor-name="<?php echo $row['title'] . " " . $row['author'] . " " . $row['content']; ?>" data-department="<?php echo $row['image']; ?>">Edit</a>
@@ -163,6 +175,20 @@ $message = isset($_GET['msg']) ? $_GET['msg'] : '';
           <!-- /.col -->
         </div>
         <!-- /.row -->
+        <!-- Pagination -->
+        <nav aria-label="Page navigation">
+          <ul class="pagination justify-content-center">
+            <?php if ($page > 1): ?>
+            <li class="page-item"><a class="page-link" href="?page=<?php echo ($page - 1); ?>">Previous</a></li>
+            <?php endif; ?>
+            <?php for ($i = 1; $i <= $total_pages; $i++): ?>
+            <li class="page-item <?php if ($i == $page) echo 'active'; ?>"><a class="page-link" href="?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
+            <?php endfor; ?>
+            <?php if ($page < $total_pages): ?>
+            <li class="page-item"><a class="page-link" href="?page=<?php echo ($page + 1); ?>">Next</a></li>
+            <?php endif; ?>
+          </ul>
+        </nav>
       </div>
       <!-- /.container-fluid -->
     </section>

@@ -31,14 +31,6 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/doctors.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Medicio
-  * Updated: Jan 29 2024 with Bootstrap v5.3.2
-  * Template URL: https://bootstrapmade.com/medicio-free-bootstrap-theme/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-
   <!-- <style>
     /* Style for chatbot container */
     #chatbot-container {
@@ -66,7 +58,7 @@
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right">
           <!-- <h5></h5> -->
-            <img src="assets/img/64slice.png" class="img-fluid" alt="">
+            <img src="assets/img/nopic.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
           <p class="about" style="text-align: justify;">Welcome your newborn with expert care and support from Gensan Medical Center's specialized Neonatology department. Our team of skilled neonatologists and pediatric nurses is dedicated to providing compassionate and comprehensive care for premature and critically ill newborns. From state-of-the-art equipment to advanced treatment protocols, we ensure the highest level of medical attention and support for our tiniest patients. With a focus on family-centered care and open communication, we strive to create a nurturing environment for both infants and their families during their stay. At Gensan Medical Center, we understand the unique needs of newborns and the importance of early intervention. Trust in our specialized Neonatology department for expert medical care that prioritizes the health and well-being of your newborn. Schedule your appointment today and rest assured knowing your little one is in the hands of experienced professionals dedicated to their care.

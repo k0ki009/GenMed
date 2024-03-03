@@ -66,7 +66,7 @@
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right">
           <!-- <h5></h5> -->
-            <img src="assets/img/64slice.png" class="img-fluid" alt="">
+            <img src="assets/img/nopic.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
           <p class="about" style="text-align: justify;">Prioritize your health and safety in the workplace with Gensan Medical Center's specialized Occupational Medicine services. Our dedicated team of occupational health experts is committed to promoting the well-being of employees and ensuring a healthy work environment. From pre-employment screenings and workplace assessments to injury management and health promotion programs, we offer comprehensive services tailored to meet the needs of both employers and employees. With a focus on prevention, early intervention, and rehabilitation, we strive to minimize workplace injuries and illnesses while maximizing productivity and employee satisfaction. At Gensan Medical Center, we understand the importance of occupational health and its impact on overall wellness and productivity. Trust in our specialized Occupational Medicine services to provide expert care and support for your workplace health needs. Schedule your consultation today and take the first step towards a safer, healthier workplace with Gensan Medical Center.

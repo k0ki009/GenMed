@@ -66,7 +66,7 @@
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right">
           <!-- <h5></h5> -->
-            <img src="assets/img/64slice.png" class="img-fluid" alt="">
+            <img src="assets/img/nopic.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
           <p class="about" style="text-align: justify;">Elevate your health with Gensan Medical Center's specialized Internal Medicine department. Our team of experienced internists is dedicated to providing comprehensive and personalized care for adults of all ages. From preventive screenings and chronic disease management to complex diagnostic evaluations, we offer expertise in a wide range of medical conditions. With a focus on building long-term relationships and promoting overall wellness, we prioritize your health and well-being every step of the way. At Gensan Medical Center, we understand the importance of continuity of care and the unique needs of each patient. Trust in our specialized Internal Medicine department for expert medical care that exceeds expectations. Schedule your appointment today and experience the difference compassionate and comprehensive internal medicine can make in your life.

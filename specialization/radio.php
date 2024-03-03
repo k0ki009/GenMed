@@ -66,7 +66,7 @@
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right">
           <!-- <h5></h5> -->
-            <img src="assets/img/64slice.png" class="img-fluid" alt="">
+            <img src="assets/img/nopic.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
           <p class="about" style="text-align: justify;">Unlock the power of advanced imaging technology with Gensan Medical Center's specialized Radiology & Imaging Sciences department. Our team of expert radiologists and imaging specialists utilizes state-of-the-art equipment and techniques to provide precise and accurate diagnostic imaging services. From X-rays and ultrasounds to MRI and CT scans, we offer a comprehensive range of imaging modalities to assist in the diagnosis and treatment of various medical conditions. With a focus on patient comfort and safety, we ensure a seamless and efficient imaging experience for every patient. At Gensan Medical Center, we understand the importance of timely and accurate diagnostics in guiding medical decisions and improving patient outcomes. Trust in our specialized Radiology & Imaging Sciences department for exceptional imaging services that prioritize your health and well-being. Schedule your appointment today and experience the difference advanced imaging technology can make at Gensan Medical Center.

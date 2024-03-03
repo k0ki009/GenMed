@@ -66,7 +66,7 @@
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right">
           <!-- <h5></h5> -->
-            <img src="assets/img/cupping.jpg" class="img-fluid" alt="">
+            <img src="assets/img/tecar.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
           <p class="about" style="text-align: justify;">Experience the future of rehabilitation with Tecar therapy at our state-of-the-art Rehabilitation Medicine Unit in Gensan Medical Center. Harnessing the power of advanced radiofrequency technology, Tecar therapy stimulates tissue repair, reduces pain, and accelerates healing for a wide range of musculoskeletal conditions. Our skilled therapists utilize precise and targeted applications to address your specific needs, promoting faster recovery and improved function. Whether you're recovering from injury, managing chronic pain, or enhancing athletic performance, Tecar therapy offers a non-invasive and effective solution. At Gensan Medical Center, we're dedicated to providing cutting-edge rehabilitation services that prioritize your well-being and restore your quality of life. Trust in our Rehabilitation Medicine Unit to guide you on your journey to optimal health and mobility. Schedule your Tecar therapy session today and discover the transformative benefits of this innovative treatment option, exclusively at Gensan Medical Center. 

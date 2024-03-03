@@ -66,7 +66,7 @@
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right">
           <!-- <h5></h5> -->
-            <img src="assets/img/64slice.png" class="img-fluid" alt="">
+            <img src="assets/img/nopic.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
           <p class="about" style="text-align: justify;">Breathe easier with Gensan Medical Center's specialized Pulmonology department. Our team of expert pulmonologists is dedicated to providing comprehensive care for a wide range of respiratory conditions, from asthma and COPD to lung infections. With advanced diagnostic tools and treatment options, we offer personalized care tailored to each patient's needs and goals. Whether you're seeking relief from chronic cough, shortness of breath, or sleep disturbances, we prioritize your respiratory health and well-being. At Gensan Medical Center, we understand the impact that respiratory issues can have on your daily life, and we're committed to helping you achieve optimal lung function and quality of life. Trust in our specialized Pulmonology department for expert care and support that exceeds expectations. Schedule your appointment today and take the first step towards better breathing with Gensan Medical Center.

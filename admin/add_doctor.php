@@ -7,6 +7,7 @@ if (isset($_POST['btnAdd'])) {
     $fName = mysqli_real_escape_string($conn, $_POST["firstname"]);
     $mName = mysqli_real_escape_string($conn, $_POST["middleName"]);
     $lName = mysqli_real_escape_string($conn, $_POST["lastName"]);
+    $address = mysqli_real_escape_string($conn, $_POST["address"]);
     $department = mysqli_real_escape_string($conn, $_POST["department"]);
 
     // Image upload
@@ -20,7 +21,7 @@ if (isset($_POST['btnAdd'])) {
     }
 
     // Insert new doctor into the database with image
-    $sql = "INSERT INTO doctors (fName, mName, lName, department, image) VALUES ('$fName', '$mName', '$lName', '$department', '$image')";
+    $sql = "INSERT INTO doctors (fName, mName, lName, department, address ,image) VALUES ('$fName', '$mName', '$lName', '$department', '$address', '$image')";
 
     if ($conn->query($sql) === TRUE) {
         // Move uploaded image to the 'images' directory
@@ -108,6 +109,10 @@ $conn->close();
     <div class="col-md-6">
         <label for="department" class="form-label">Department</label>
         <input type="text" class="form-control required" id="department" name="department" placeholder="Enter department" required>
+    </div>
+    <div class="col-md-6">
+        <label for="address" class="form-label">Address</label>
+        <input type="text" class="form-control required" id="address" name="address" placeholder="Enter address" >
     </div>
     <div class="col-md-6">
         <label for="image" class="form-label">Upload Image</label>

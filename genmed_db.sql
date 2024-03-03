@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 29, 2024 at 03:53 AM
--- Server version: 10.4.28-MariaDB
--- PHP Version: 8.2.4
+-- Generation Time: Feb 28, 2024 at 02:33 PM
+-- Server version: 10.4.32-MariaDB
+-- PHP Version: 8.0.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -56,19 +56,19 @@ CREATE TABLE `news` (
   `title` varchar(99) NOT NULL,
   `author` varchar(99) NOT NULL,
   `content` varchar(500) NOT NULL,
-  `image` varchar(99) NOT NULL,
-  `Date` date NOT NULL DEFAULT current_timestamp()
+  `image` varchar(99) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `news`
 --
 
-INSERT INTO `news` (`id`, `title`, `author`, `content`, `image`, `Date`) VALUES
-(5, 'vccxvxc', 'erdf', 'cxzcx', '605592.png', '2024-02-29'),
-(6, 'cxcxc', 'efdxcx', 'vxc', 'uwp4265080.jpeg', '2024-02-29'),
-(7, 'red', '123', 'fdf', 'bg.jpg', '2024-02-29'),
-(8, 'fsd', 'sdsx', 'cxcsd', 'bg.jpg', '2024-02-29');
+INSERT INTO `news` (`id`, `title`, `author`, `content`, `image`) VALUES
+(2, 'sdxzc', 'cxcx', 'xcsd', '1099653.png'),
+(3, 'xcxc', 'ewds', 'scxvfb', '1099662.png'),
+(4, 'vcvv', 'rgfdg', 'vcxv', 'wp3927314.png'),
+(5, 'vccxvxc', 'erdf', 'cxzcx', '605592.png'),
+(6, 'cxcxc', 'efdxcx', 'vxc', 'uwp4265080.jpeg');
 
 --
 -- Indexes for dumped tables
@@ -100,7 +100,7 @@ ALTER TABLE `doctors`
 -- AUTO_INCREMENT for table `news`
 --
 ALTER TABLE `news`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

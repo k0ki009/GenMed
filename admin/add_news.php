@@ -6,6 +6,7 @@ if (isset($_POST['btnAdd'])) {
     // Sanitize input data to prevent SQL injection
     $title = mysqli_real_escape_string($conn, $_POST["title"]);
     $author = mysqli_real_escape_string($conn, $_POST["author"]);
+    $summary = mysqli_real_escape_string($conn, $_POST["summary"]);
     $content = mysqli_real_escape_string($conn, $_POST["content"]);
 
     // Image upload
@@ -19,7 +20,7 @@ if (isset($_POST['btnAdd'])) {
     }
 
     // Insert new news into the database with image
-    $sql = "INSERT INTO news (title, author, content, image) VALUES ('$title', '$author', '$content', '$image')";
+    $sql = "INSERT INTO news (title, author, summary, content, image) VALUES ('$title', '$author', '$summary', '$content', '$image')";
     if ($conn->query($sql) === TRUE) {
         // Move uploaded image to the 'images' directory
         if (move_uploaded_file($_FILES['image']['tmp_name'], $target)) {
@@ -98,6 +99,10 @@ $conn->close();
     <div class="col-md-4">
         <label for="author" class="form-label">Author</label>
         <input type="text" class="form-control" id="author" name="author" placeholder="Enter Author" required>
+    </div>
+    <div class="col-md-12">
+        <label for="summary" class="form-label">Summary</label>
+        <textarea type="text" class="form-control" id="summary" name="summary" placeholder="Enter Summary" required></textarea>
     </div>
     <div class="col-md-12">
         <label for="content" class="form-label">Content</label>

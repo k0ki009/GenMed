@@ -66,7 +66,7 @@
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right">
           <!-- <h5></h5> -->
-            <img src="assets/img/64slice.png" class="img-fluid" alt="">
+            <img src="assets/img/islam.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
           <p class="about" style="text-align: justify;">Gensan Medical Center's Islam Prayer Room offers a serene and inclusive space for spiritual reflection and worship. Designed to accommodate the religious needs of our Muslim patients, visitors, and staff, our prayer room provides a peaceful environment for prayer and contemplation. Equipped with prayer mats and appropriate facilities, we ensure that individuals can observe their religious practices with comfort and dignity while at the hospital. At Gensan Medical Center, we respect and honor the diverse cultural and religious backgrounds of our community, and our Islam Prayer Room reflects our commitment to providing inclusive care and support to all.

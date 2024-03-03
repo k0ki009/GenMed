@@ -66,7 +66,7 @@
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right">
           <!-- <h5></h5> -->
-            <img src="assets/img/64slice.png" class="img-fluid" alt="">
+            <img src="assets/img/nopic.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
           <p class="about" style="text-align: justify;">Unlock the potential for healing and recovery with Gensan Medical Center's specialized Neurosurgery department. Our team of expert neurosurgeons is dedicated to providing cutting-edge surgical solutions for complex neurological conditions. From brain tumors and spinal disorders to traumatic brain injuries and vascular malformations, we offer advanced treatments tailored to each patient's individual needs. With state-of-the-art technology and a commitment to excellence, we ensure precision, safety, and optimal outcomes for every procedure. At Gensan Medical Center, we understand the profound impact neurological conditions can have on your life, and we prioritize compassionate care and support throughout your journey to wellness. Trust in our specialized Neurosurgery department for expert medical care that exceeds expectations. Schedule your consultation today and take the first step towards a brighter future with Gensan Medical Center.

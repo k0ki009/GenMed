@@ -66,7 +66,7 @@
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right">
           <!-- <h5></h5> -->
-            <img src="assets/img/64slice.png" class="img-fluid" alt="">
+            <img src="assets/img/nopic.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
           <p class="about" style="text-align: justify;">Trust in Gensan Medical Center's specialized General Surgery department for expert care and exceptional outcomes. Our team of skilled surgeons is dedicated to providing comprehensive surgical solutions for a wide range of conditions, from routine procedures to complex surgeries. With state-of-the-art facilities and advanced techniques, we ensure precision, safety, and optimal recovery for every patient. Whether you require minimally invasive surgery or traditional approaches, we tailor our treatments to meet your unique needs and goals. At Gensan Medical Center, we prioritize patient-centered care and strive to exceed expectations in every aspect of your surgical experience. Trust in our specialized General Surgery department for compassionate, expert care that puts your health and well-being first. Schedule your consultation today and take the first step towards a healthier, happier you with Gensan Medical Center.

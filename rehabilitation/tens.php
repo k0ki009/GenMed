@@ -66,7 +66,7 @@
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right">
           <!-- <h5></h5> -->
-            <img src="assets/img/cupping.jpg" class="img-fluid" alt="">
+            <img src="assets/img/tens.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
           <p class="about" style="text-align: justify;">Reclaim your vitality and freedom from pain with Transcutaneous Electrical Nerve Stimulation (TENS) and Electrical Muscle Stimulation (EMS) services at our advanced Rehabilitation Medicine Unit in Gensan Medical Center. Our skilled therapists harness the power of electrical stimulation to alleviate discomfort, improve muscle strength, and enhance overall function. Whether you're seeking relief from chronic pain, recovering from injury, or aiming to optimize athletic performance, our tailored TENS and EMS treatments offer personalized solutions for your rehabilitation journey. Experience the benefits of targeted pain relief, increased circulation, and accelerated healing in a comfortable and supportive environment. At Gensan Medical Center, we prioritize your well-being and recovery, delivering comprehensive rehabilitation services with compassion and expertise. Trust in our Rehabilitation Medicine Unit to empower you with the tools and therapies needed to live your best life. Schedule your TENS and EMS session today and take the first step towards a pain-free and active lifestyle. 

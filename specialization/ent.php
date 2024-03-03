@@ -66,7 +66,7 @@
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right">
           <!-- <h5></h5> -->
-            <img src="assets/img/64slice.png" class="img-fluid" alt="">
+            <img src="assets/img/nopic.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
           <p class="about" style="text-align: justify;">Discover exceptional care for your ear, nose, and throat needs at Gensan Medical Center's specialized ENT department. Our team of experienced otolaryngologists is dedicated to providing comprehensive and compassionate treatment for a wide range of ENT conditions. From hearing loss and sinus issues to throat infections and nasal congestion, we offer advanced diagnostic and therapeutic services tailored to your individual needs. With state-of-the-art equipment and a commitment to patient-centered care, we prioritize your comfort and well-being throughout your ENT journey. Whether you're seeking relief from chronic allergies or exploring treatment options for sleep apnea, trust in Gensan Medical Center for expert ENT care that exceeds expectations. Take the first step towards better ear, nose, and throat health by scheduling your appointment with our specialized ENT team today.

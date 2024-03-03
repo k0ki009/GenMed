@@ -66,7 +66,7 @@
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right">
           <!-- <h5></h5> -->
-            <img src="assets/img/64slice.png" class="img-fluid" alt="">
+            <img src="assets/img/nopic.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
           <p class="about" style="text-align: justify;">Embrace every stage of womanhood with Gensan Medical Center's specialized Obstetrics & Gynecology department. Our compassionate team of OB-GYN specialists is dedicated to providing comprehensive care for women of all ages, from adolescence through menopause and beyond. Whether you're seeking prenatal care, family planning services, or treatment for gynecological issues, we offer personalized care tailored to your unique needs and goals. With state-of-the-art facilities and advanced medical techniques, we ensure safe and effective care for every patient. At Gensan Medical Center, we understand the importance of women's health and strive to empower every woman to live her healthiest and happiest life. Trust in our specialized Obstetrics & Gynecology department for expert care and support that puts your well-being first. Schedule your appointment today and experience the difference compassionate and comprehensive women's healthcare can make in your life.

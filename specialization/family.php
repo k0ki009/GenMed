@@ -66,7 +66,7 @@
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right">
           <!-- <h5></h5> -->
-            <img src="assets/img/64slice.png" class="img-fluid" alt="">
+            <img src="assets/img/nopic.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
           <p class="about" style="text-align: justify;">Experience comprehensive care for your entire family at Gensan Medical Center's specialized Family Medicine department. Our team of dedicated family physicians provides personalized and compassionate healthcare services tailored to meet the diverse needs of individuals of all ages. From routine check-ups and preventive screenings to managing chronic conditions and coordinating care, we are committed to promoting the health and well-being of your entire family. With a focus on continuity of care and building strong doctor-patient relationships, we strive to be your trusted healthcare partners for life. At Gensan Medical Center, we understand the importance of family-centered care and the unique dynamics of each family unit. Trust in our specialized Family Medicine department to provide expert medical care that prioritizes your family's health and happiness. Schedule your appointment today and discover the difference compassionate and comprehensive family medicine can make in your life.
