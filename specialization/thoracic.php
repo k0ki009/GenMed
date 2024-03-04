@@ -66,7 +66,7 @@
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right">
           <!-- <h5></h5> -->
-            <img src="assets/img/64slice.png" class="img-fluid" alt="">
+            <img src="assets/img/nopic.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
           <p class="about" style="text-align: justify;">Trust your heart and lungs to the expert hands of Gensan Medical Center's specialized Thoracic & Cardiovascular Surgery specialists. Our team of skilled surgeons is dedicated to providing advanced surgical solutions for a wide range of thoracic and cardiovascular conditions. From coronary artery bypass grafting and valve repair to lung resection and transplantation, we offer personalized treatment plans tailored to each patient's unique needs and goals. With state-of-the-art facilities and innovative surgical techniques, we ensure precision, safety, and optimal outcomes for every procedure. At Gensan Medical Center, we understand the importance of maintaining a healthy heart and lungs, and we're committed to delivering exceptional care and support throughout your surgical journey. Trust in our specialized Thoracic & Cardiovascular Surgery department for expert care that prioritizes your health and well-being. Schedule your consultation today and take the first step towards a healthier heart and brighter future with Gensan Medical Center.

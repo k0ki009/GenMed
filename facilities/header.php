@@ -56,13 +56,13 @@
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top">
         <div class="container d-flex align-items-center">
-            <a href="index.php" class="logo me-auto">
-                <div style="display: flex; align-items: center;">
-                    <img src="assets/img/logo.jpg" alt="GENSAN MEDICAL CENTER" style="max-width: 100px; height: auto;">
-                    <img src="assets/img/logo/Caring_beyond_healing-.png" alt="GENSAN MEDICAL CENTER" style="max-width: 150px; height: auto;">
-                    <span style="font-size: 1.5rem;">GENSAN MEDICAL CENTER</span>
-                </div>
-            </a>
+        <a href="index.php" class="logo me-auto">
+            <div style="display: flex; align-items: center;">
+                <img src="assets/img/logo.jpg" alt="GENSAN MEDICAL CENTER" style="max-width: 100px; height: auto;">
+                <img src="assets/img/logo/Caring_beyond_healing-.png" alt="GENSAN MEDICAL CENTER" style="max-width: 150px; height: auto;">
+                <span style="font-size: 1.5rem; text-align: center;">GENSAN MEDICAL CENTER</span>
+            </div>
+        </a>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <h1 class="logo me-auto"><a href="index.html">Medicio</a></h1> -->
             <nav id="navbar" class="navbar order-last order-lg-0">
@@ -71,7 +71,7 @@
                     <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
                         <ul class="scrollable-menu">
                             <li><a href="../leadership.php">Leadership</a></li>
-                            <li><a href="#">Vision and Mission</a></li>
+                            <li><a href="../mission.php">Vision and Mission</a></li>
                             <li><a class="nav-link scrollto" href="../gallery.php">Gallery</a></li>
                             <li><a class="nav-link scrollto" href="../index.php">Contact</a></li>
                         </ul>
@@ -108,9 +108,7 @@
                             
                             <li class="dropdown"><a href="#"><span>Rehabilitation Medicine</span> <i class="bi bi-chevron-right"></i></a>
                             <ul class="scrollable-menu">
-                                    <li><a href="../rehabilitation/cupping.php">Cupping</a></li>
                                     <li><a href="../rehabilitation/hydro.php">Hydrocollator Packs</a></li>
-                                    <li><a href="../rehabilitation/muscular.php">Muscular Taping</a></li>
                                     <li><a href="../rehabilitation/tecar.php">Tecar Theraphy</a></li>
                                     <li><a href="../rehabilitation/tens.php">Tens and EMS</a></li>
                                     <li><a href="../rehabilitation/thera.php">Therapeutic Exercises</a></li>
@@ -166,7 +164,6 @@
                             <li><a href="../specialization/urology.php">Urology</a></li>
                         </ul>
                     </li>
-                    <li><a class="nav-link scrollto" href="../index.php">Contact</a></li>
                     
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>

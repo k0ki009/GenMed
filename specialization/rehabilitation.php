@@ -66,7 +66,7 @@
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right">
           <!-- <h5></h5> -->
-            <img src="assets/img/64slice.png" class="img-fluid" alt="">
+            <img src="assets/img/nopic.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
           <p class="about" style="text-align: justify;">Embark on your journey to recovery and renewed vitality with Gensan Medical Center's specialized Rehabilitation Medicine specialists. Our dedicated team of rehabilitation specialists is committed to providing comprehensive and personalized care to help you regain function, independence, and quality of life. From physical therapy and occupational therapy to speech therapy and pain management, we offer a holistic approach to rehabilitation tailored to your unique needs and goals. With state-of-the-art facilities and advanced treatment techniques, we ensure that every step of your recovery journey is guided by expertise, compassion, and support. At Gensan Medical Center, we understand the challenges you may face after injury, illness, or surgery, and we're here to empower you to achieve your fullest potential. Trust in our specialized Rehabilitation Medicine department for expert care that puts your well-being first. Schedule your appointment today and take the first step towards a brighter, more vibrant future with Gensan Medical Center.
