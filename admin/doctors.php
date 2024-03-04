@@ -2,7 +2,7 @@
 include 'conn.php';
 
 // Pagination configuration
-$records_per_page = 4; // Change this value to adjust the number of records per page
+$records_per_page = 10; // Change this value to adjust the number of records per page
 $page = isset($_GET['page']) && is_numeric($_GET['page']) ? $_GET['page'] : 1;
 $start_from = ($page - 1) * $records_per_page;
 
@@ -138,7 +138,7 @@ $total_pages = ceil($total_records / $records_per_page);
                       <td style="width: 300px;"><span class="fw-semibold"><?php echo $row['address']; ?></span></td>
                       <td><img src="dist/doctor/<?php echo $row['image']; ?>" alt="Doctor Image" style="max-width: 100px;"></td>
                       <td>
-                        <a href="#" class="btn btn-primary btn-sm edit-button" data-toggle="modal" data-target="#editModal" data-doctor-id="<?php echo $id; ?>" data-doctor-name="<?php echo $row['fName'] . " " . $row['mName'] . " " . $row['lName']; ?>" data-department="<?php echo $row['department']; ?>">Edit</a>
+                        <button type="button" class="btn btn-primary btn-sm edit-button" data-toggle="modal" data-target="#editModal" data-doctor-id="<?php echo $id; ?>" data-first-name="<?php echo $row['fName']; ?>" data-specialization="<?php echo $row['department']; ?>" data-address="<?php echo $row['address']; ?>" data-image="<?php echo $row['image']; ?>">Edit</button>
                         <a href="admin_doctor_archive.php?id=<?php echo $id; ?>" class="btn btn-danger btn-sm">Archive</a>
                       </td>
                     </tr>
@@ -163,17 +163,17 @@ $total_pages = ceil($total_records / $records_per_page);
       <!-- /.container-fluid -->
     </section>
     <!-- Pagination links -->
-<ul class="pagination justify-content-center">
-    <?php if ($page > 1): ?>
-        <li class="page-item"><a class="page-link" href="?page=<?php echo ($page - 1); ?><?php echo $search_query ? '&q='.$search_query : ''; ?>">Previous</a></li>
-    <?php endif; ?>
-    <?php for ($i = 1; $i <= $total_pages; $i++): ?>
-        <li class="page-item <?php if ($i == $page) echo 'active'; ?>"><a class="page-link" href="?page=<?php echo $i; ?><?php echo $search_query ? '&q='.$search_query : ''; ?>"><?php echo $i; ?></a></li>
-    <?php endfor; ?>
-    <?php if ($page < $total_pages): ?>
-        <li class="page-item"><a class="page-link" href="?page=<?php echo ($page + 1); ?><?php echo $search_query ? '&q='.$search_query : ''; ?>">Next</a></li>
-    <?php endif; ?>
-</ul>
+    <ul class="pagination justify-content-center">
+        <?php if ($page > 1): ?>
+            <li class="page-item"><a class="page-link" href="?page=<?php echo ($page - 1); ?><?php echo $search_query ? '&q='.$search_query : ''; ?>">Previous</a></li>
+        <?php endif; ?>
+        <?php for ($i = 1; $i <= $total_pages; $i++): ?>
+            <li class="page-item <?php if ($i == $page) echo 'active'; ?>"><a class="page-link" href="?page=<?php echo $i; ?><?php echo $search_query ? '&q='.$search_query : ''; ?>"><?php echo $i; ?></a></li>
+        <?php endfor; ?>
+        <?php if ($page < $total_pages): ?>
+            <li class="page-item"><a class="page-link" href="?page=<?php echo ($page + 1); ?><?php echo $search_query ? '&q='.$search_query : ''; ?>">Next</a></li>
+        <?php endif; ?>
+    </ul>
 
     <!-- /.content -->
   </div>
@@ -182,8 +182,44 @@ $total_pages = ceil($total_records / $records_per_page);
 </div>
 <!-- /.wrapper -->
 
-<!-- Modal -->
-<!-- Modal content -->
+<!-- Edit Doctor Modal -->
+<div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="editModalLabel">Edit Doctor</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form id="editDoctorForm">
+          <input type="hidden" id="edit_doctor_id" name="edit_doctor_id">
+          <div class="form-group">
+            <label for="edit_first_name">First Name</label>
+            <input type="text" class="form-control" id="edit_first_name" name="edit_first_name">
+          </div>
+          <div class="form-group">
+            <label for="edit_specialization">Specialization</label>
+            <input type="text" class="form-control" id="edit_specialization" name="edit_specialization">
+          </div>
+          <div class="form-group">
+            <label for="edit_address">Address</label>
+            <input type="text" class="form-control" id="edit_address" name="edit_address">
+          </div>
+          <div class="form-group">
+            <label for="edit_image">Image</label>
+            <input type="file" class="form-control-file" id="edit_image" name="edit_image">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" id="updateDoctorBtn">Update</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- jQuery -->
 <script src="plugins/jquery/jquery.min.js"></script>
@@ -201,30 +237,44 @@ $total_pages = ceil($total_records / $records_per_page);
     $('#doctor-table').DataTable();
   });
 
-  // Handle batch upload form submission
-  $(document).ready(function() {
-    $('#batchUploadForm').submit(function(e) {
-      e.preventDefault();
-      var formData = new FormData(this);
+  // Handle edit modal display and form submission
+  $(document).on('click', '.edit-button', function() {
+    var doctor_id = $(this).data('doctor-id');
+    var first_name = $(this).data('first-name');
+    var specialization = $(this).data('specialization');
+    var address = $(this).data('address');
+    var image = $(this).data('image');
+    
+    $('#edit_doctor_id').val(doctor_id);
+    $('#edit_first_name').val(first_name);
+    $('#edit_specialization').val(specialization);
+    $('#edit_address').val(address);
+    $('#edit_image').val('admin/dist/doctor/' + image);
+    
+    $('#editModal').modal('show');
+  });
 
-      $.ajax({
-        url: 'batch_upload.php', // Update the URL to your batch upload processing script
-        type: 'POST',
-        data: formData,
-        success: function(response) {
-          // Handle success response, e.g., show a success message or reload the page
-          console.log(response);
-          // Reload the page after successful upload
-          window.location.reload();
-        },
-        error: function(xhr, status, error) {
-          // Handle error response, e.g., show an error message
-          console.error(xhr.responseText);
-        },
-        cache: false,
-        contentType: false,
-        processData: false
-      });
+  // Handle update button click
+  $('#updateDoctorBtn').click(function() {
+    var formData = new FormData($('#editDoctorForm')[0]);
+    
+    $.ajax({
+      url: 'edit_doctor.php',
+      type: 'POST',
+      data: formData,
+      processData: false,
+      contentType: false,
+      success: function(response) {
+        // Handle success response
+        console.log(response);
+        $('#editModal').modal('hide');
+        // Reload the page after successful update
+        location.reload();
+      },
+      error: function(xhr, status, error) {
+        // Handle error response
+        console.error(xhr.responseText);
+      }
     });
   });
 </script>

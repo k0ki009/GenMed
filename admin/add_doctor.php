@@ -100,7 +100,7 @@ $conn->close();
     </div>
     <div class="col-md-4">
         <label for="mName" class="form-label">Middle Name</label>
-        <input type="text" class="form-control required" id="mName" name="middleName" placeholder="Enter middleName" required>
+        <input type="text" class="form-control required" id="mName" name="middleName" placeholder="Enter middleName">
     </div>
     <div class="col-md-4">
         <label for="lName" class="form-label">Last Name</label>
