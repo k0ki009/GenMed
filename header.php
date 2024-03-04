@@ -109,9 +109,7 @@
                             
                             <li class="dropdown"><a href="#"><span>Rehabilitation Medicine</span> <i class="bi bi-chevron-right"></i></a>
                             <ul class="scrollable-menu">
-                                    <li><a href="rehabilitation/cupping.php">Cupping</a></li>
                                     <li><a href="rehabilitation/hydro.php">Hydrocollator Packs</a></li>
-                                    <li><a href="rehabilitation/muscular.php">Muscular Taping</a></li>
                                     <li><a href="rehabilitation/tecar.php">Tecar Theraphy</a></li>
                                     <li><a href="rehabilitation/tens.php">Tens and EMS</a></li>
                                     <li><a href="rehabilitation/thera.php">Therapeutic Exercises</a></li>

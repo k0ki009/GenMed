@@ -57,6 +57,11 @@ $conn->close();
   <link rel="stylesheet" href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="dist/css/adminlte.min.css">
+
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rich Text Editor</title>
+    <script src="https://cdn.ckeditor.com/4.16.2/standard/ckeditor.js"></script>
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
@@ -105,9 +110,29 @@ $conn->close();
         <textarea type="text" class="form-control" id="summary" name="summary" placeholder="Enter Summary" required></textarea>
     </div>
     <div class="col-md-12">
-        <label for="content" class="form-label">Content</label>
-        <textarea type="text" class="form-control" id="content" name="content" placeholder="Enter Content" required></textarea>
-    </div>
+    <label for="content" class="form-label">Content</label>
+    <textarea id="content" name="content"></textarea>
+</div>
+
+<script>
+    CKEDITOR.replace('content', {
+        toolbar: [
+            { name: 'document', items: [ 'Source', '-', 'NewPage', 'Preview', '-', 'Templates' ] },
+            { name: 'clipboard', items: [ 'Cut', 'Copy', 'Paste', 'PasteText', 'PasteFromWord', '-', 'Undo', 'Redo' ] },
+            { name: 'editing', items: [ 'Find', 'Replace', '-', 'SelectAll', '-', 'Scayt' ] },
+            { name: 'insert', items: [ 'Image', 'Table', 'HorizontalRule', 'Smiley', 'SpecialChar' ] },
+            '/',
+            { name: 'basicstyles', items: [ 'Bold', 'Italic', 'Underline', 'Strike', 'Subscript', 'Superscript', '-', 'RemoveFormat' ] },
+            { name: 'paragraph', items: [ 'NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'Blockquote', 'CreateDiv', '-' ] },
+            { name: 'styles', items: [ 'Styles', 'Format', 'Font', 'FontSize' ] },
+            { name: 'colors', items: [ 'TextColor', 'BGColor' ] },
+            { name: 'tools', items: [ 'Maximize', 'ShowBlocks' ] },
+            { name: 'others', items: [ '-' ] },
+            { name: 'about', items: [ 'About' ] }
+        ],
+        height: 300
+    });
+</script>
 
     <div class="col-md-6">
         <label for="image" class="form-label">Upload Image</label>

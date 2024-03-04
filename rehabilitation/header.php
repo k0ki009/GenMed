@@ -72,7 +72,7 @@
                     <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
                         <ul class="scrollable-menu">
                             <li><a href="../leadership.php">Leadership</a></li>
-                            <li><a href="#">Vision and Mission</a></li>
+                            <li><a href="../mission.php">Vision and Mission</a></li>
                             <li><a class="nav-link scrollto" href="../gallery.php">Gallery</a></li>
                             <li><a class="nav-link scrollto" href="../index.php">Contact</a></li>
                         </ul>
@@ -109,9 +109,7 @@
                             
                             <li class="dropdown"><a href="#"><span>Rehabilitation Medicine</span> <i class="bi bi-chevron-right"></i></a>
                             <ul class="scrollable-menu">
-                                    <li><a href="cupping.php">Cupping</a></li>
                                     <li><a href="hydro.php">Hydrocollator Packs</a></li>
-                                    <li><a href="muscular.php">Muscular Taping</a></li>
                                     <li><a href="tecar.php">Tecar Theraphy</a></li>
                                     <li><a href="tens.php">Tens and EMS</a></li>
                                     <li><a href="thera.php">Therapeutic Exercises</a></li>
@@ -167,7 +165,7 @@
                             <li><a href="../specialization/urology.php">Urology</a></li>
                         </ul>
                     </li>
-                    <li><a class="nav-link scrollto" href="../index.php">Contact</a></li>
+
                     
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>

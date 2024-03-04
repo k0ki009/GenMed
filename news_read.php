@@ -46,7 +46,7 @@
   
 <br><br><br><br><br><br>
   <div class="news-container">
-    <?php
+  <?php
     // Include the file for database connection
     include 'conn.php';
 
@@ -68,7 +68,7 @@
         <h2 class="news-title"><?php echo $row['title']; ?></h2>
         <p class="news-date"><?php echo $row['formatted_date']; ?></p>
         <img src="admin/dist/news/<?php echo $row['image']; ?>" alt="<?php echo $row['title']; ?>" class="news-image">
-        <p class="news-content"><?php echo $row['content']; ?></p>
+        <p class="news-content"><?php echo nl2br($row['content']); ?></p>
       </div>
     <?php
       } else {
@@ -82,7 +82,8 @@
 
     // Close database connection
     mysqli_close($conn);
-    ?>
+?>
+
   </div>
   <?php include("footer.php") ?>
 </body>

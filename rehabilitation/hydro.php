@@ -67,7 +67,7 @@
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right">
           <!-- <h5></h5> -->
-            <img src="assets/img/cupping.jpg" class="img-fluid" alt="">
+            <img src="../assets/img/nopic.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
           <p class="about" style="text-align: justify;">Experience soothing relief and accelerated healing with hydrocollator packs at our Rehabilitation Medicine Unit in Gensan Medical Center. Our advanced therapy utilizes specially designed packs filled with warm, moist heat to alleviate pain, reduce muscle stiffness, and promote flexibility. Whether you're recovering from an injury, managing chronic pain, or seeking relaxation, our hydrocollator packs offer targeted and effective treatment. Our expert therapists customize each session to suit your individual needs, ensuring optimal comfort and results. At Gensan Medical Center, we prioritize your well-being and recovery, providing comprehensive rehabilitation services with state-of-the-art equipment and compassionate care. Trust in our Rehabilitation Medicine Unit to support you on your journey to restored health and vitality. Schedule your hydrocollator pack therapy session today and experience the soothing benefits of this advanced treatment option, only at Gensan Medical Center. 
