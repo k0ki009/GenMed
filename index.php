@@ -133,38 +133,38 @@
        <p><strong>Partners:</strong> </p>
        <div class="image">
        <div id="carousel" style="overflow-x: hidden; white-space: nowrap; width: 100%;">
-  <img src="assets/img/TPP.png" height="90px" width="90px" style="margin: 10px;">
-  <img src="assets/img/DOH.png" height="80px" width="80px" style="margin: 10px;">
-  <img src="assets/img/Philhealth.png" height="70px" width="150px" style="margin: 10px;">
-  <img src="assets/img/UHC.png" height="80px" width="100px" style="margin: 10px;">
-  <img src="assets/img/PCSO.png" height="80px" width="80px" style="margin: 10px;">
-  <img src="assets/img/DSWD.png" height="100px" width="150px" style="margin: 10px;">
-  <img src="assets/img/Labangal.png" height="90px" width="90px" style="margin: 10px;">
-  <img src="assets/img/sealcity.jpg" height="90px" width="90px" style="margin: 10px;">
-  <img src="assets/img/amping.png" height="90px" width="90px" style="margin: 10px;">
-  <img src="assets/img/konsulta.jpg" height="120px" width="170px" style="margin: 10px;">
-  <img src="assets/img/MAXICARE.png" height="50px" width="130px" style="margin: 10px;">
-  <img src="assets/img/intellicare.png" height="50px" width="130px" style="margin: 10px;">
-  <img src="assets/img/lifehealth.png" height="80px" width="160px" style="margin: 10px;">
-  <img src="assets/img/coop.png" height="90px" width="90px" style="margin: 10px;">
-  <img src="assets/img/amaphil.png" height="80px" width="160px" style="margin: 10px;">
-  <img src="assets/img/Pacific.png" height="80px" width="160px" style="margin: 10px;">
-  <img src="assets/img/cocolife.png" height="70px" width="190px" style="margin: 10px;">
-  <img src="assets/img/EastWest.png" height="70px" width="150px" style="margin: 10px;">
-  <img src="assets/img/avega.png" height="50px" width="180px" style="margin: 10px;">
-  <img src="assets/img/etiqa.png" height="90px" width="90px" style="margin: 10px;">
-  <img src="assets/img/benlife.png" height="70px" width="150px" style="margin: 10px;">
-  <img src="assets/img/Generali.png" height="100px" width="150px" style="margin: 10px;">
-  <img src="assets/img/kaiser.png" height="70px" width="230px" style="margin: 10px;">
-  <img src="assets/img/sarangani.png" height="90px" width="90px" style="margin: 10px;">
-  <img src="assets/img/maasim.jpg" height="90px" width="90px" style="margin: 10px;">
-  <img src="assets/img/malungon.png" height="90px" width="90px" style="margin: 10px;">
-  <img src="assets/img/TPP.png" height="90px" width="90px" style="margin: 10px;">
-  <img src="assets/img/alabel.png" height="90px" width="90px" style="margin: 10px;">
-  <img src="assets/img/malapatan.jpg" height="90px" width="90px" style="margin: 10px;">
-  <img src="assets/img/Glan.jpg" height="90px" width="90px" style="margin: 10px;">
-  <img src="assets/img/SOCO.png" height="90px" width="90px" style="margin: 10px;">
-  <img src="assets/img/Tupi.png" height="90px" width="90px" style="margin: 10px;">
+  <img src="assets/img/TPP.png" height="90px" width="90px" style="margin: 6px;">
+  <img src="assets/img/DOH.png" height="80px" width="80px" style="margin: 6px;">
+  <img src="assets/img/Philhealth.png" height="70px" width="150px" style="margin: 6px;">
+  <img src="assets/img/UHC.png" height="80px" width="100px" style="margin: 6px;">
+  <img src="assets/img/PCSO.png" height="80px" width="80px" style="margin: 6px;">
+  <img src="assets/img/DSWD.png" height="100px" width="150px" style="margin: 6px;">
+  <img src="assets/img/Labangal.png" height="90px" width="90px" style="margin: 6px;">
+  <img src="assets/img/sealcity.jpg" height="90px" width="90px" style="margin: 6px;">
+  <img src="assets/img/amping.png" height="90px" width="90px" style="margin: 6px;">
+  <img src="assets/img/konsulta.jpg" height="120px" width="170px" style="margin: 6px;">
+  <img src="assets/img/MAXICARE.png" height="50px" width="130px" style="margin: 6px;">
+  <img src="assets/img/intellicare.png" height="50px" width="130px" style="margin: 6px;">
+  <img src="assets/img/lifehealth.png" height="80px" width="160px" style="margin: 6px;">
+  <img src="assets/img/coop.png" height="90px" width="90px" style="margin: 6px;">
+  <img src="assets/img/amaphil.png" height="80px" width="160px" style="margin: 6px;">
+  <img src="assets/img/Pacific.png" height="80px" width="160px" style="margin: 6px;">
+  <img src="assets/img/cocolife.png" height="70px" width="190px" style="margin: 6px;">
+  <img src="assets/img/EastWest.png" height="70px" width="150px" style="margin: 6px;">
+  <img src="assets/img/avega.png" height="50px" width="180px" style="margin: 6px;">
+  <img src="assets/img/etiqa.png" height="90px" width="90px" style="margin: 6px;">
+  <img src="assets/img/benlife.png" height="70px" width="150px" style="margin: 6px;">
+  <img src="assets/img/Generali.png" height="90px" width="130px" style="margin: 6px;">
+  <img src="assets/img/kaiser.png" height="70px" width="230px" style="margin: 6px;">
+  <img src="assets/img/sarangani.png" height="90px" width="90px" style="margin: 6px;">
+  <img src="assets/img/maasim.jpg" height="90px" width="90px" style="margin: 6px;">
+  <img src="assets/img/malungon.png" height="90px" width="90px" style="margin: 6px;">
+  <img src="assets/img/TPP.png" height="90px" width="90px" style="margin: 6px;">
+  <img src="assets/img/alabel.png" height="90px" width="90px" style="margin: 6px;">
+  <img src="assets/img/malapatan.jpg" height="90px" width="90px" style="margin: 6px;">
+  <img src="assets/img/Glan.jpg" height="90px" width="90px" style="margin: 6px;">
+  <img src="assets/img/SOCO.png" height="90px" width="90px" style="margin: 6px;">
+  <img src="assets/img/Tupi.png" height="90px" width="90px" style="margin: 6px;">
 </div>
     </div>
     <br>
@@ -185,7 +185,7 @@
             <div class="count-box">
             <i class="fas fa-user-md"></i>
               <!-- <i class="far fa-hospital"></i> -->
-              <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="1" class="purecounter"></span>
+              <span data-purecounter-start="0" data-purecounter-end="106" data-purecounter-duration="1" class="purecounter"></span>
               <p><strong>Specialist</strong> Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi </p>
               <!-- <a href="#">Find out more &raquo;</a> -->
             </div>
