@@ -1,15 +1,14 @@
-<?php
-$user = 'root';
-$pass = ''; 
-$dbName = 'genmed_db';
+<?php 
+$sname = "localhost";
+$uname = "root";
+$password = "";
+$dbname = "genmed_db";
 
-// Create connection
-$conn = new mysqli('localhost', $user, $pass, $dbName);
+$conn = mysqli_connect($sname, $uname, $password, $dbname);
 
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+if(!$conn) {
+    echo "Connection Failed";
+} else {
+    echo "Connection Successful!";
 }
-
-// echo "Connected successfully";
 ?>
